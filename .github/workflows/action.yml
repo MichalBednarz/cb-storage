@@ -7,4 +7,4 @@ jobs:
     name: save snapshot
     steps:
     - name: echo client payload
-      run: 'echo "Event text: ${{ github.event.client_payload }}"
+      run: 'echo "Event text: ${{ github.event.client_payload }}"'
